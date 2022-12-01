@@ -16,7 +16,7 @@ int check_sycle(listint_t *list)
 		return (0);
 
 	slow = list->next;
-	fast = list->->next;
+	fast = list->next->next;
 
 	while (slow && fast && fast->next)
 	{
