@@ -6,7 +6,7 @@
  * @number: the number to insert.
  * Author - Tolulope Fakunle
  * Return: if the function fails - NULL.
- * 	Otherwise - pointer to the new node.
+ * Otherwise - pointer to the new node.
  */
 listint_t *insert_node(listint_t **head, int number)
 {
